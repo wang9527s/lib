@@ -1,0 +1,13 @@
+prefix=/home/wangbin/grpc/install
+exec_prefix=/home/wangbin/grpc/install
+libdir=/home/wangbin/grpc/install/lib
+sharedlibdir=/home/wangbin/grpc/install/lib
+includedir=/home/wangbin/grpc/install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

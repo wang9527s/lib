@@ -1,0 +1,12 @@
+prefix=/home/wangbin/grpc/install
+exec_prefix=${prefix}
+libdir=/home/wangbin/grpc/install/lib
+includedir=/home/wangbin/grpc/install/include
+
+Name: absl_pretty_function
+Description: Abseil pretty_function library
+URL: https://abseil.io/
+Version: 20240116
+Requires:
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX
